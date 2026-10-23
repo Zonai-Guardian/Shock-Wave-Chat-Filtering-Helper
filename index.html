@@ -1,14 +1,19 @@
-<!--f**k,b**ch-->
-<!--damn,hell,sh*t-->
-<!--blood,crap,stupid-->
-
-<!--End of special data-->
-
 <!--
-    Info:
-First Line: Will be blocked even if the letters are in a bigger word
-Second Line: Will be blocked if they're in a word by themseles
-Second Line: Will be blocked if they're in a word by themseles if the setting "SHOULD_FILTER_CHAT_STRICTLY" is enabled
+FORMAT_VERSION=1.0
+
+CHAT_FILTERING_VERSION=1.0
+f**k,b**ch               // These will be blocked even if the letters are in a bigger word
+damn,hell,sh*t           // These will be blocked if they're in a word by themseles
+blood,crap,stupid        // These will be blocked if they're in a word by themseles if the setting "SHOULD_FILTER_CHAT_STRICTLY" is enabled
+
+
+END // End of special formatting
+
+Formatting Info:
+    Everything after "//" is ignored in every line
+    Lines that are blank (empty or only whitespaces) are ignored
+    All leading and trailing whitespaces are ignored
+    On the version lines every letter before the = must match EXACTLY except that case is ignored
 -->
 
 <link rel="stylesheet" href="styles.css">
